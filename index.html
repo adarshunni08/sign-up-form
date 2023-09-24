@@ -12,8 +12,7 @@
             <img src="images/background-image.avif" alt="background-image">
         </div>
         <div class="right">
-            <div class="content-one">This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.
-                Sign up now to get started.</div>
+            <div class="content-one">This is not a real online service! Sign up now to get started.</div>
             <div class="content-two">
                 <h1>Let's do this!</h1>
                 <form action="">
@@ -34,22 +33,22 @@
                         </div>
                         <div>
                             <label for="phone-number"></label>
-                            <input type="text" id="phone-number" name="phone-number" placeholder="PHONE NUMBER" required>
+                            <input type="text" id="phone-number" name="phone-number" placeholder="PHONE NUMBER" required pattern="[789][0-9]{9}">
                         </div>
                     </div>
                     <div class="password">
                         <div>
                             <label for="password"></label>
-                            <input type="text" id="password" name="password" placeholder="PASSWORD" required>
+                            <input type="password" id="password" name="password" placeholder="PASSWORD" required>
                         </div>
                         <div>
                             <label for="confirm-password"></label>
-                            <input type="text" id="confirm-password" name="confirm-password" placeholder="CONFIRM PASSWORD" required>
+                            <input type="password" id="confirm-password" name="confirm-password" placeholder="CONFIRM PASSWORD" required>
                         </div>
                     </div>
                     <div class="content-three">
                         <button class="submit">Create Account</button>
-                        <div class="old-user">Already have an account? Log In</div>
+                        <div class="old-user">Already have an account? <a href="">Log In</a></div>
                     </div>
                 </form>
             </div>
